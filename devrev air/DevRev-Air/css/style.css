@@ -1,0 +1,126 @@
+html,body{
+margin:0;
+padding:0;
+}
+body{
+	font:90% calibri,sans-serif;
+	text-align:center;
+}
+
+div#header{          /*which div tag has id header will perform bg color is the meaning for this div infront */
+background:#F3F2ED;
+}
+
+div#header h1{
+	height:80px;
+	line-height:80px;
+	margin:0;
+	padding-left:10px;
+}
+
+div#container{
+	height:auto;
+	width:700px;
+	margin:0 auto; /*to make it in center i used 0 auto*/
+	text-align:left;
+}
+div#wrapper{
+	float:right;
+	width:500px
+}
+div#wrapper p{
+line-height:1.5;
+text-align:justify;
+}
+
+div#navi{
+float:left;
+height:1300px;
+width:200px;
+background:#F6F0E0;
+}
+
+div#navi ul{
+margin-left:10px;
+list-style-type:square;
+}
+
+div#navi li{
+margin-bottom:15px;
+}
+
+div#footer{
+clear:both;  /*default ah iruka right and left floationg clear pani down la konduvarum*/
+width:100%;
+background:#BFBD93;
+}
+
+div#footer p{
+margin:0;
+padding:5px 10px;
+}
+
+a
+{
+	padding:5px;
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{         /*this is for that navigation bar kita mouse kondupona it will indicate as green*/
+	color:green;
+}
+p{
+	margin:0 10px 10px; /*margin property for gap btw para and navigation*/
+}
+
+#heading{
+	text-align:center;
+}
+
+#center{
+height:auto;
+width:500px;
+margin:0 auto;	
+}
+
+label,input,button,select,textarea{
+display:block;   /*for convertion it to block level*/
+margin-top:5px;
+margin-bottom:5px;
+}
+
+input,select,textarea{
+	height:100%;
+	
+}
+
+/*creating a class for error red and sucess green*/
+
+.error{
+	color:red;
+	text-align:center;
+}
+
+.sucess{
+	color:green;
+	text-align:center;
+}
+
+.record{
+list-style-type:square;
+}
+
+.record li{
+margin-top:15px;
+
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+table td,table th{
+	boder:1px solid #ddd;
+	padding:5px;
+}
